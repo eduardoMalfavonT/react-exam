@@ -15,13 +15,13 @@ const data = {
     {
       label: "Id",
       field: "id",
-      sort: "asc",
+      sort: "des",
       width: 150,
     },
     {
       label: "Name",
       field: "name",
-      sort: "asc",
+      sort: "des",
       width: 150,
     },
     { label: "Last Name", field: "last_name", sort: "asc", width: 150 },
