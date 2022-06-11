@@ -24,7 +24,7 @@ export const Upload = () => {
         setImages(authState.images);
       }
     }
-  }, []);
+  }, [authState.images]);
 
   const handleBack = () => {
     if (counterImage > 0) {
@@ -48,6 +48,10 @@ export const Upload = () => {
         if (e.target.result.includes("image")) {
           setImages((prevState: any) => [
             ...prevState,
+            { id: cuid(), src: e.target.result },
+          ]);
+          uploadImage([
+            ...authState.images,
             { id: cuid(), src: e.target.result },
           ]);
         }
