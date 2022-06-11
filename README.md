@@ -29,3 +29,15 @@ Los archivos son los siguientes:
 **Nota:**los archivos estan almacenados en la carpeta data que esta dentro de src "Raiz del proyecto"
 
 2. La aplicación no hace uso de ninguna otra configuración por lo cual si necesita correrlo solo debera de instalar las dependecias con `npm install` o si prefiere con `npm i`, esto instalara las dependencias utilizadas con la actualización hasta el día 11 de junio del 2022
+
+3. Usuarios disponibles:
+
+#### Producción
+
+email: reactExam@production.com
+password: 123456
+
+#### Pruebas
+
+email: reactExam@test.com
+password: 123456
