@@ -1,0 +1,117 @@
+.containerLogin {
+  max-height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rowLogin {
+  width: 40vw;
+  height: 40%;
+}
+
+.colLogin {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.containerFormLogin {
+  width: 100%;
+  height: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: white;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  box-shadow: 5px 6px 5px -4px rgba(255, 255, 255, 0.66);
+  -webkit-box-shadow: 5px 6px 5px -4px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 5px 6px 5px -4px rgba(0, 0, 0, 0.66);
+  border: 2px solid #e6e6e6;
+  padding-top: 10px !important;
+}
+
+.rowFormLoginItem {
+  height: 40%;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.colFormLoginTitle {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+  font-weight: bold;
+}
+
+.colFormLoginItem {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.colFormLoginItem input {
+  width: 70%;
+  height: 50%;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border: 2px solid rgba(40, 44, 52, 0.5);
+  outline: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif !important;
+  font-weight: bold;
+  color: grey;
+  padding-left: 10px;
+}
+
+.rowContainerButton {
+  height: 20%;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.colContainerButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.loginButton {
+  width: 50%;
+  /* height: 25px; */
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  background-color: #282c34;
+  color: white;
+  font-weight: bold;
+}
+
+.loginButton:hover {
+  background-color: rgba(40, 44, 52, 0.5);
+  color: white;
+}

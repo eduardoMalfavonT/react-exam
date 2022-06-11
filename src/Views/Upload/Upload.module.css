@@ -1,0 +1,105 @@
+.containerDragDrop {
+  height: 94%;
+}
+
+.rowDnDTitle {
+  height: 15%;
+}
+
+.colDnDTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleDnD {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  color: grey;
+  font-size: 3rem;
+}
+
+.rowContainerDnD {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colContainerDnD {
+  width: 70% !important;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border: 1px solid gray;
+}
+
+.rowContainerImageSection {
+  height: 40%;
+  margin-top: 50px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colContainerImageSection {
+  /* background-color:red; */
+  width: 70% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonsSection {
+}
+.colButtonsSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttonDnD {
+  background-color: transparent;
+  border: none;
+  color: grey;
+}
+.buttonDnD:hover {
+  color: black;
+}
+.dndSection {
+}
+
+.buttonIcon {
+  width: 50px;
+  height: 50px;
+}
+
+.rowButtonupload {
+  height: 4em;
+}
+
+.colButtonUpload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonUpload {
+  background-color: grey;
+  border: none;
+  width: 30%;
+  height: 50%;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  color: white;
+  font-weight: bold;
+}
+
+.buttonUpload:hover {
+  background-color: black;
+}

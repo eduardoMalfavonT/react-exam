@@ -1,0 +1,32 @@
+.fileList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 65% !important;
+  /* border: 3px dotted black; */
+}
+
+.fileList img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.fileItem {
+  /* background-color: red; */
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.colFileItem {
+  /* background-color: blue; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
